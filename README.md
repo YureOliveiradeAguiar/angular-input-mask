@@ -1,6 +1,5 @@
-<h1>Angular Input Mask Directive</h1>
 <p>
-  The directive that allows the use of the html attribute <code>mask=""</code> and
+  A directive that allows the use of the html attribute <code>mask=""</code> and
   implements the Angular Control Value Accessor (CVA).
 </p>
 
