@@ -1,7 +1,6 @@
-<p>
-  A directive that allows the use of the html attribute <code>mask=""</code> and
-  implements the Angular Control Value Accessor (CVA).
-</p>
+<p>A directive that allows the use of the html attribute <code>mask=""</code> and implements the Angular Control Value Accessor (CVA). Adapted for native html input fields</p>
+<h2>Important</h2>
+<p>Because this directive uses the CVA callbacks, it won't work with professional reactive form adapted custom UI components. These contain the CVA callbacks, which, when duped, will raise an error by default.</p>
 
 <h2>Supported Tokens</h2>
 <table>
